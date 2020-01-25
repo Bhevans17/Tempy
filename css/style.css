@@ -7,6 +7,7 @@ body {
 nav {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
@@ -28,7 +29,7 @@ nav {
   display: block;
   text-align: center;
 }
-
+/*
 .nav-wrapper {
   width: 100%;
   text-align: center;
@@ -49,7 +50,7 @@ nav {
   text-decoration: none;
   color: black;
 }
-
+*/
 /* Main */
 main {
   background-image: url("../img/hike.jpg");
@@ -97,7 +98,7 @@ main {
   transition: 0.3s;
 }
 
-/* About */
+/* About 
 
 .about-content {
   text-align: center;
@@ -118,20 +119,21 @@ main {
 .about-content p {
   margin: 0;
 }
-
+*/
 /* Shop */
 .shop-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 5%;
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 25.333%;
-  margin: 25px;
   text-align: center;
-  font-family: arial;
+  width: 30%;
+  margin: 1.5%;
 }
 
 .price {
@@ -144,7 +146,7 @@ main {
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #00cff6;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -216,6 +218,7 @@ footer {
 footer ul {
   list-style: none;
   margin: 0;
+  padding: 0;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -261,5 +264,9 @@ footer ul li a {
 
   .about-content {
     padding: 5% 33%;
+  }
+
+  .card {
+    width: 33%.33;
   }
 }
